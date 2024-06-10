@@ -47,15 +47,16 @@ logo_html = """
     <div class="logo-container">
         <img src="https://calimana.com/favicon.png" alt="Logo Calimana">
     </div>
+    <div class="logo-container">
+        <img src="https://www.upf.edu/image/company_logo?img_id=10601&t=1718038903187" alt="Logo UPF">
+    </div>
     """
 
-# Display the logo using st.markdown
 st.markdown(logo_html, unsafe_allow_html=True)
 st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente')
 st.title('TFG Silvia Riaño')
 
 st.subheader('Recomendación de Psicólogos')
-#st.image("https://images.app.goo.gl/a5Tjp2XubvG5oaPw7", caption="Logo UPF", use_column_width=False)
 
 
 edad_input = st.text_input('Ingrese la edad del paciente:')
