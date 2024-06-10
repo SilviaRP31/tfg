@@ -34,10 +34,10 @@ st.markdown(
 
 #st.image("https://drive.google.com/uc?id=1h2jfotBC7DRnz25IDWLRgNMY1Bc3qBQN", caption="Logo Calimana", use_column_width=False)
 
-st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente', align = 'center')
-st.title('TFG Silvia Riaño', align = 'center')
+st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente')
+st.title('TFG Silvia Riaño')
 
-st.subheader('Recomendación de Psicólogos', align = 'center')
+st.subheader('Recomendación de Psicólogos')
 #st.image("https://images.app.goo.gl/a5Tjp2XubvG5oaPw7", caption="Logo UPF", use_column_width=False)
 
 
