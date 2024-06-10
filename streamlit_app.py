@@ -32,8 +32,25 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("https://calimana.com/favicon.png", caption="Logo Calimana", use_column_width=False)
+logo_html = """
+    <style>
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 50px;
+    }
+    .logo-container img {
+        height: 40px;  # You can adjust the height as needed
+    }
+    </style>
+    <div class="logo-container">
+        <img src="https://calimana.com/favicon.png" alt="Logo Calimana">
+    </div>
+    """
 
+# Display the logo using st.markdown
+st.markdown(logo_html, unsafe_allow_html=True)
 st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente')
 st.title('TFG Silvia Riaño')
 
