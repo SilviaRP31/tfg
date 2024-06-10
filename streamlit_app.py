@@ -55,11 +55,8 @@ logo_html = """
     </div>
     """
 st.markdown(logo_html, unsafe_allow_html=True)
-st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente')
-st.title('TFG Silvia Riaño')
-
-st.subheader('Recomendación de Psicólogos')
-
+st.title('Sistema de Recomendación Inteligente de Recomendación de Psicólogos')
+st.subheader('TFG Silvia Riaño')
 
 edad_input = st.text_input('Ingrese la edad del paciente:')
 motivo_input = st.text_input('Ingrese el motivo de la visita del paciente:')
