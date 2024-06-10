@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from gensim.models import Word2Vec, KeyedVectors
 from gensim.utils import simple_preprocess
+from sklearn.metrics.pairwise import cosine_similarity
 import gensim.downloader as api
+
 """
 # Welcome to Calimana!
 """
