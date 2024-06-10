@@ -55,7 +55,7 @@ logo_html = """
     </div>
     """
 st.markdown(logo_html, unsafe_allow_html=True)
-st.title('Sistema de Recomendación Inteligente de Recomendación de Psicólogos')
+st.title('Sistema de Recomendación Inteligente de Psicólogos')
 st.subheader('TFG Silvia Riaño')
 
 edad_input = st.text_input('Ingrese la edad del paciente:')
@@ -80,7 +80,7 @@ if st.button('Recomiéndame Psicólogos'):
         if top_matches:
             st.write("Los 3 psicólogos recomendados:")
             for index, score in top_matches:
-                st.write(f"ID Psicólogo: {df.iloc[index]['ID Psicólogo']} - Similitud: {score:.2f}")
+                st.write(f"ID Psicólogo: {df.iloc[index]['ID Psicólogo']} - Similitud: {score:.2f} - Previamete vinculado con un paciente estos motivos {df.iloc[index]['Motivo Visita Paciente']}")
         else:
             st.write("No se encontraron psicólogos con una similitud mayor a 0.")
     else:
