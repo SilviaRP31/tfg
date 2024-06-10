@@ -32,6 +32,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.image("https://drive.google.com/file/d/1h2jfotBC7DRnz25IDWLRgNMY1Bc3qBQN/view?usp=share_link", caption="Logo Calimana", use_column_width=True)
+
+st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente - TFG Silvia Riaño')
 st.title('Recomendación de Psicólogos')
 
 edad_input = st.text_input('Ingrese la edad del paciente:')
