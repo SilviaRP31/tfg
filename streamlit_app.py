@@ -32,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#st.image("https://drive.google.com/uc?id=1h2jfotBC7DRnz25IDWLRgNMY1Bc3qBQN", caption="Logo Calimana", use_column_width=False)
+st.image("https://calimana.com/favicon.png", caption="Logo Calimana", use_column_width=False)
 
 st.title('Optimización del Proceso de Selección de Psicólogos mediante un Sistema de Recomendación Inteligente')
 st.title('TFG Silvia Riaño')
