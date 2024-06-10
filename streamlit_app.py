@@ -80,7 +80,7 @@ if st.button('Recomiéndame Psicólogos'):
         if top_matches:
             st.write("Los 3 psicólogos recomendados:")
             for index, score in top_matches:
-                st.write(f"ID Psicólogo: {df.iloc[index]['ID Psicólogo']} - Similitud: {score:.2f} - Previamete vinculado con un paciente estos motivos {df.iloc[index]['Motivo Visita Paciente']}")
+                st.write(f"ID Psicólogo: {df.iloc[index]['ID Psicólogo']} - Similitud: {score:.2f} - Previamete vinculado con un paciente estos motivos {df.iloc[index]['Motivo visita paciente']}")
         else:
             st.write("No se encontraron psicólogos con una similitud mayor a 0.")
     else:
