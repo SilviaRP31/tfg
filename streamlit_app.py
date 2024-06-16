@@ -78,7 +78,7 @@ if st.button('Recomiéndame Psicólogos'):
 
         # print de resultados
         if top_matches:
-            st.write(f"Los {df.len(top_matches)} psicólogos recomendados:")
+            st.write(f"Los {len(top_matches)} psicólogos recomendados:")
             for index, score in top_matches:
                 st.write(f"ID Psicólogo: {df.iloc[index]['ID Psicólogo']} - Similitud: {score:.2f} - Previamete vinculado con un paciente estos motivos de: {df.iloc[index]['Motivo visita paciente']}")
         else:
